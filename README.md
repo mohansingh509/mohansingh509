@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @mohansingh509
-- 👀 I’m interested in front end developer
+- 👀 I’m interested in software developer
 - 🌱 I’m currently learning ...
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me  ms8941798@gmail.com
