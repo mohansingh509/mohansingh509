@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(./assets/bg.jpg);
+    background-size: 1500px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+/* Logo */
+#logo{
+    position: absolute;
+    line-height: 30px;
+    margin-bottom: 100px;
+    margin-left: 2pc;
+}
+#logo .img-2{
+    margin-right: 15rem;
+    padding-right: 10pc;
+    margin-bottom: 13px;
+}
+/* Navigation */
+#nav{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+}
+
+#nav img {
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+    top: 0%;
+}
+
+#nav .header-list {
+    flex: 1;
+    text-align: right;
+}
+
+.header-list ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+
+}
+
+.header-list ul li a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .header-list ul li::after {
+    content: '';
+    height: 2px;
+    background: #F4BC44;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    width: 0%;
+}
+
+.header-list ul li:hover::after {
+    width: 100%;
+} */
+
+.button1 {
+    background-color: #F4BC44;
+    color: #ffffff;
+    padding:10% 10px;
+    height: 200px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border-radius: 15px 0 15px 0;
+    }
+
+#co-change{
+    color:#ffffff;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+    
+}
+#con{
+    color: #F4BC44;
+}
+
+/* HERO SECTION */
+#about{
+    padding-bottom: 4%;    
+    padding-top: 2%;
+  }
+.ban-text{
+        font-family: 'Raleway', sans-serif;
+        font-size:49px;
+        line-height: 3rem;
+        padding-left: 60px;
+        padding-top: 13%;
+}
+.hero-text{
+    color: #005249;
+}
+.ban-para{
+        font-size:17px;
+        letter-spacing: 1px;
+        padding-top: 1rem;
+        line-height: 1.2rem;
+        text-decoration:none;
+        padding-left: 60px;
+        max-width:430px;
+        font-family: 'PT Sans'
+            }
+
+/* BANNER IMAGE */
+.vert-move{
+            background-image:url(./assets/BANNER.png);
+            background-repeat:no-repeat;
+            background-size:300px;
+            height:350px;
+            margin-left:890px;
+            margin-top:-310px;
+            -webkit-animation: mover 1s infinite  alternate;
+            animation: mover 1s infinite  alternate;
+            -webkit-animation: mover 1s infinite  alternate;
+            animation: mover 1s infinite  alternate;
+}
+        @-webkit-keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+        @keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+
+        .get-stat{
+            padding-left: 4%;
+            padding-top: 4px;
+        }
+            .button2 {
+                padding-left: 20px;
+                padding-right:20px;
+                cursor: pointer; 
+                background-color: #F4BC44;
+                color: #ffffff;
+                height: 50px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                border-radius: 15px 0 15px 0;
+            }
+        .pa{
+            color:#ffffff;
+            padding-top: 0%;
+            padding-bottom: 0%;
+        }
+.button2:hover{
+                background-color:rgb(255, 255, 255);
+                color: #F4BC44;
+                border-color: #F4BC44;
+            }
+        
+        .button3 {
+                padding-left: 20px;
+                padding-right:20px;
+                cursor: pointer; 
+                background-color: white;
+                border-color: #F4BC44;
+                color: #F4BC44;;
+                height: 50px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                border-radius: 15px 0 15px 0;
+                outline: none;
+                margin-left: 1rem;
+        }
+        .pa3{
+        color:#ffffff;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        }
+
+        .button3:hover{
+                background-color:#F4BC44;
+                color: #ffffff;
+}
