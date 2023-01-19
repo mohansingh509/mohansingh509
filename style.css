@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(./assets/bg.jpg);
+    background-size: 1500px;
+    block-size: 600px;
+    background-repeat: no-repeat;
+}
+
+/* Logo */
+#logo{
+    position: absolute;
+    line-height: 30px;
+    margin-block-end: 100px;
+    margin-inline-start: 2pc;
+}
+#logo .img-2{
+    margin-inline-end: 15rem;
+    padding-inline-end: 10pc;
+    margin-block-end: 13px;
+}
+/* Navigation */
+#nav{
+    inline-size: 90%;
+    color: black;
+    position: absolute;
+    inset-block-start: 10%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+}
+
+#nav img {
+    inline-size: 150px;
+    padding-inline-start: 20px;
+    padding-block-start: 10px;
+    inset-block-start: 0%;
+}
+
+#nav .header-list {
+    flex: 1;
+    text-align: end;
+}
+
+.header-list ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+
+}
+
+.header-list ul li a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .header-list ul li::after {
+    content: '';
+    block-size: 2px;
+    background: #F4BC44;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    inline-size: 0%;
+}
+
+.header-list ul li:hover::after {
+    inline-size: 100%;
+} */
+
+.button1 {
+    background-color: #F4BC44;
+    color: #ffffff;
+    padding:10% 10px;
+    block-size: 200px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border-radius: 15px 0 15px 0;
+    }
+
+#co-change{
+    color:#ffffff;
+    padding-block-start: 10%;
+    padding-block-end: 10%;
+
+    
+}
+#con{
+    color: #F4BC44;
+}
+
+/* HERO SECTION */
+#about{
+    padding-block-end: 4%;    
+    padding-block-start: 2%;
+  }
+.ban-text{
+        font-family: 'Raleway', sans-serif;
+        font-size:49px;
+        line-height: 3rem;
+        padding-inline-start: 10%;
+        padding-block-start: 13%;
+        
+}
+.hero-text{
+    color: #005249;
+}
+.ban-para{
+        font-size:17px;
+        letter-spacing: 1px;
+        padding-block-start: 1rem;
+        line-height: 2rem;
+        text-decoration:none;
+        padding-inline-start: 10%;
+        max-inline-size:430px;
+        
+        font-family: 'PT Sans'
+            }
+
+/* BANNER IMAGE */
+.vert-move{
+            background-image:url(./assets/BANNER.png);
+            background-repeat:no-repeat;
+            background-size:450px;
+            block-size:500px;
+            margin-inline-start:55%;
+            margin-block-start:-450px;
+            -webkit-animation: mover 1s infinite  alternate;
+            animation: mover 1s infinite  alternate;
+            -webkit-animation: mover 1s infinite  alternate;
+            animation: mover 1s infinite  alternate;
+}
+        @-webkit-keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+        @keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+
+        .get-stat{
+            padding-inline-start: 4%;
+            padding-block-start: 4px;
+        }
+            .button2 {
+                padding-inline-start: 20px;
+                padding-inline-end:20px;
+                cursor: pointer; 
+                background-color: #F4BC44;
+                color: #ffffff;
+                block-size: 50px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                border-radius: 15px 0 15px 0;
+            
+            }
+        .pa{
+            color:#ffffff;
+            padding-block-start: 0%;
+            padding-block-end: 0%;
+        }
+.button2:hover{
+                background-color:rgb(255, 255, 255);
+                color: #F4BC44;
+                border-color: #F4BC44;
+            }
+        
+            .button3 {
+                padding-inline-start: 20px;
+                padding-inline-end:20px;
+                cursor: pointer; 
+                background-color: white;
+                border-color: #F4BC44;
+                color: #F4BC44;;
+                block-size: 50px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                border-radius: 15px 0 15px 0;
+                outline: none;
+                margin-inline-start: 1rem;
+            }
+        .pa3{
+            color:#ffffff;
+            padding-block-start: 0%;
+            padding-block-end: 0%;
+        }
+
+            .button3:hover{
+                background-color:#F4BC44;
+                color: #ffffff;
+            }
+.ver-line{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    
+
+}
+.text-1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:48px;
+    padding-inline-start:12.5%;
+    padding-inline-end: 12.5%;
+    line-height: 120%;
+}
+.text-2{
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:20px;
+    line-height: 150%;
+    
+}
+.image-mask{
+    inline-size:100%;
+}
+.table{
+    
+    border-radius:  45px;
+    background-color:#F4BC44;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    box-shadow:1px 1px 100px rgb(193, 192, 192);
+}
+
+.shadow{
+    
+    background-color:#ffffff ;
+    border-radius: 50%;
+    inline-size: 40px;
+   
+}
+
+
+
+
+.abt-text{
+    font-family: 'PT Sans', sans-serif;
+    font-size:48px;
+    line-height: 3rem;
+    padding-inline-start: 17%;
+    padding-block-start: 0%;
+    
+}
+
+.abt-para{
+    font-family: 'Open Sans', sans-serif;
+    font-size:17px;
+    padding-block-start: 1rem;
+    line-height: 2rem;
+    text-decoration:none;
+    padding-inline-start: 17%;
+    max-inline-size:560px;
+    line-height: 1.5;
+    font-family: 'PT Sans'
+    
+}
+.abt-stat{
+    font-family: 'Raleway', sans-serif;
+    font-size:49px;
+    padding-inline-start: 17%;
+    padding-block-start: 0%;
+}
+.abt-us{
+    
+    background-image: url('./assets/image.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:22rem 22rem ;
+    background-position-x:80%;
+    background-blend-mode:multiply;
+}
+
+.h-ques {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.p-doubts {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.h-school1 {
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 500;
+    inline-size:auto;
+    text-align: start;
+    margin-inline-start: 5px;
+    
+}
+
+.h-school {
+
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    background-color: #F4BC44;
+    block-size:96px;
+    inline-size:auto;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    padding-inline-start: 13px;
+    border-radius: 20px;
+}
+
+.s {
+    padding-inline-start: 190px;
+    font-size: 22px;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+}
+
+.text-rights{
+text-align: center;
+color:grey;
+inline-size: 100px;
+font-size: 48px;
+font-weight: 100;
+}
+
+.footer{
+   font-family: PT Sans;
+   
+    background-color: #F4BC44;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    inline-size:auto;
+    
+   
+    border-radius: 0px;
+}
+.foot_table{
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-inline-start: 13px;
+
+}
+
+.footer_img{
+    inline-size: 80px;
+    block-size: 80px;
+    margin-inline-start:0px;
+    
+    
+}
+.footer_col{
+    inset-inline-start: auto;
+    text-align: start;
+    padding-block-start: 0%;
+}
+.testi{
+    font-family: PT Sans;
+    font-size: 20px;
+    margin-block-start: -75px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    background-color:#C3FCF2;
+    inline-size:auto;
+    block-size: auto;
+    padding-block-start: 15px;
+    padding-block-end: 15px;
+    padding-inline-start: 13px;
+    border-radius: 20px;
+    font-size:17px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+    max-inline-size: 75%;
+}
+
