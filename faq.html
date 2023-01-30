@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FAQ</title>
+	<style>
+		body{
+			background-color: rgb(255, 255, 255);
+		}
+		.layout{
+			width: 600px;
+			margin: auto;
+		}
+		.accordion{
+			padding: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background: #F4BC44;
+			border-radius: 10px;
+		}
+		.accordion__question p{
+			margin: 5px;
+			padding: 0;
+            font-family: PT Sans;		
+            font-size: 20px;
+		}
+		.accordion__answer p{
+			margin: 5px;
+			padding: 10px;
+			font-size: large;
+            font-family: PT Sans;
+            color: rgb(12, 12, 12);
+			background:#F4BC44;
+			border-radius: 10px;
+		}
+		.accordion:hover{
+			cursor: pointer;
+		}
+		.accordion__answer {
+			display: none;
+		}
+		.accordion.active .accordion__answer {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<h2 style="color:#060606; text-align:center"> Frequently asked questions</h2>
+    <p
+    style='line-height: 129.99999523162842%; letter-spacing: 0%; text-transform: none; text-align: center; vertical-align: top; font-family: PT Sans; font-size: 20px; color: rgba(30, 30, 30, 1); font-weight: 400; width: 100%'>
+    Eager to know about us! We are here to address your curiosities.<br>
+    Resolve the queries arising foremost in your
+    mind regarding us and our internships.</p>
+	<div class="layout">
+		<div class="accordion">
+			<div class="accordion__question">
+				<p>1. What is a “School of Interns”? </p>
+
+			</div>
+			<div class="accordion__answer">
+				<p> Ans. School of Interns is the learning and training internship program providing a platform where you can learn and enhance your skills which will help you immensely in the future.</p>
+
+			</div>
+		</div>
+		<div class="accordion">
+			<div class="accordion__question">
+				<p>2. In what fields does the School of Interns currently serve? </p>
+
+			</div>
+			<div class="accordion__answer">
+				<p>
+                    Ans. School of Interns deliver versatile internships in the following sectors/fields: 
+                    
+                    Human Resource 
+                    
+                    IT & Tech Support 
+                    
+                    Content Writing 
+                    
+                    Graphic Design 
+                    
+                    Web Development 
+                    
+                    Business Management 
+                    
+                    Digital Marketing 
+                    
+                    Public Relations (PR) 
+                    
+                    Sales & Marketing 
+                    
+                    Finance and Accounting 
+				</p>
+
+			</div>
+		</div>
+        <div class="accordion">
+			<div class="accordion__question">
+				<p>3. How do I apply for an internship at the School of Interns?  </p>
+
+			</div>
+			<div class="accordion__answer">
+				<p>                    
+                    Ans. You can apply for an internship with us through forms available on our website and other platforms like LinkedIn and social media.
+				</p>
+
+			</div>
+		</div>
+        <div class="accordion">
+			<div class="accordion__question">
+				<p>4. What do I receive after completing my internship?  </p>
+
+			</div>
+			<div class="accordion__answer">
+				<p>
+                    Ans. After successfully completing your internship, 
+                    
+                    You will get a government-approved certificate with a specific letter of recommendation. 
+                    
+                    Based on your performance, you will get an opportunity to work with other eligible companies or with us too. 
+                    
+                    You will get hands-on experience with real and prestigious software and portals. 
+				</p>
+
+			</div>
+		</div>
+        <div class="accordion">
+			<div class="accordion__question">
+				<p>5. Who can join the school of interns? 
+
+                    </p>
+
+			</div>
+			<div class="accordion__answer">
+				<p> Ans. The School of interns is a learning and training platform where skills and passion are valued. Students, graduates, and other individuals such as even non-graduates can join us.</p>
+
+			</div>
+		</div>
+        <div class="accordion">
+			<div class="accordion__question">
+				<p> 6. Do we receive any practical exposure while working in SOI? </p>
+
+			</div>
+			<div class="accordion__answer">
+				<p>Ans. Yes, there will be practical exposure for you as you will not only learn the skills but you will implement those skills and knowledge in various projects and tasks by using advanced software.</p>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+		let answers=document.querySelectorAll(".accordion");
+		answers.forEach((event)=>{
+			event.addEventListener('click',()=>{
+				if(event.classList.contains("active")){
+					event.classList.remove("active");
+				}
+				else{
+					event.classList.add("active");
+				}
+			})
+		})
+	</script>
+</body>
+</html>
