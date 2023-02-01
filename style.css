@@ -334,6 +334,7 @@ ul li a:before{
     font-weight: 500;
 }
 
+
 .h-school1 {
     font-family: "PT Sans";
     font-size: 24px;
@@ -343,7 +344,60 @@ ul li a:before{
     margin-inline-start: 5px;
     
 }
+.accordion{
+    margin: 60px auto;
+    width: 600px;
+}
+.accordion li{
+    list-style-type:none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #F4BC44;   
+    font-family: "PT Sans";
+                              
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    
 
+}
+label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size:24px;
+    font-weight: 600;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    color: rgba(26, 23, 23, 0.699);
+    padding: 0 10px;
+    line-height: 26px;
+    font-size:24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s,padding 0.5s;
+    
+
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+    content: '-';
+    
+}
+
+/*
 .h-school {
 
     margin-inline-start: auto;
@@ -356,7 +410,7 @@ ul li a:before{
     padding-inline-start: 13px;
     border-radius: 20px;
 }
-
+*/
 .s {
     padding-inline-start: 190px;
     font-size: 22px;
@@ -401,6 +455,20 @@ font-weight: 100;
     inset-inline-start: auto;
     text-align: start;
     padding-block-start: 0%;
+}
+.media-scroller{
+    --spacer:1rem;
+    display: grid;
+    gap: var(--spacer);
+    grid-auto-flow: column;
+   grid-auto-columns: 36%;
+  
+   overflow: auto;
+   margin-left: 200px;
+}
+.media-element{
+    padding: var(--spacer);
+    object-fit: cover;
 }
 .testi{
     font-family: PT Sans;
