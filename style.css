@@ -470,6 +470,69 @@ font-weight: 100;
     padding: var(--spacer);
     object-fit: cover;
 }
+.main-scroll-div{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(236, 223, 223);
+    font-family: PT Sans;
+    font-size: 20px;
+    margin-block-start: -75px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    background-color:#C3FCF2;
+    inline-size:auto;
+    block-size: auto;
+    padding-block-start: 15px;
+    padding-block-end: 15px;
+    padding-inline-start: 13px;
+    border-radius: 20px;
+    font-size:17px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2rem;
+    max-inline-size: 75%;
+}
+.cover{
+    position: relative;
+    width: 80%;
+    
+}
+
+.scroll-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.media-element{
+    min-width: 600px;
+    height: auto;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid  rgb(224, 156, 29);
+    border-radius: 150px;
+}
+.scroll-image::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.icon{
+    color: rgb(7, 233, 7);
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding:0px 20px ;
+    cursor: pointer;
+}
+.icon:hover{
+    color: yellow;
+}
 .testi{
     font-family: PT Sans;
     font-size: 20px;

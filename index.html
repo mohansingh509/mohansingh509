@@ -8,6 +8,7 @@
     <link rel="icon" href='./assets/logo.png' type="image/png">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9ff3cf64c.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>Basket Hunt</title>
 </head>
@@ -157,6 +158,59 @@
     <br>
     <br>
     <p style="text-align:center;font-size: 48px; font-family: Open Sans; font-weight: 700; line-height: 150%;"><strong>Testimonials</strong></p><br><br><br><br>
+    <div class="main-scroll-div" style=" inline-size: 70%;" >
+        <div ><button class="icon" onclick="scrolll()"><i class="fas fa-angle-double-left"></i></button></div>
+       
+        <div class="cover">
+            <div class="scroll-image">
+                <div class="media-element">
+                    <div style="text-align: center;">
+                       <img src="./assets/neha.png" alt="_blank">
+                    </div>
+                    <div class="testi" >
+                      <p >
+                         <br><br>
+                         “I joined the School of Interns in my first year for my winter internship in the content writing <br> department. The organization provided hands-on experience in the corporate culture. What I really like <br> about the School of Interns is that I was working in a team where everyone’s point of view used to get <br> equal consideration from our team leader who always encouraged us to go out of our comfort zone <br> which kept me in my toes to constantly keep upskilling myself to make the best use of the time, I was <br> investing for the work I was doing there. Through the internship, I gained a great amount of knowledge <br> and experience of what being a content writer looks like in the real world. I can honestly say I have <br> learned something new every day as an intern and I am happy with the direction I am headed in life.”
+             
+                       <br><br><b>Neha Kedia, Content Writer Intern</b>
+                       </p>
+                       <br><br>
+                     </div>
+                 </div>
+                 <div class="media-element">
+                    <div style="text-align: center;">
+                       <img src="./assets/neha.png" alt="_blank">
+                    </div>
+                    <div class="testi" >
+                      <p >
+                         <br><br>
+                         “I joined the School of Interns in my first year for my winter internship in the content writing <br> department. The organization provided hands-on experience in the corporate culture. What I really like <br> about the School of Interns is that I was working in a team where everyone’s point of view used to get <br> equal consideration from our team leader who always encouraged us to go out of our comfort zone <br> which kept me in my toes to constantly keep upskilling myself to make the best use of the time, I was <br> investing for the work I was doing there. Through the internship, I gained a great amount of knowledge <br> and experience of what being a content writer looks like in the real world. I can honestly say I have <br> learned something new every day as an intern and I am happy with the direction I am headed in life.”
+             
+                       <br><br><b>Neha Kedia, Content Writer Intern</b>
+                       </p>
+                       <br><br>
+                     </div>
+                 </div>
+                 <div class="media-element">
+                    <div style="text-align: center;">
+                       <img src="./assets/neha.png" alt="_blank">
+                    </div>
+                    <div class="testi" >
+                      <p >
+                         <br><br>
+                         “I joined the School of Interns in my first year for my winter internship in the content writing <br> department. The organization provided hands-on experience in the corporate culture. What I really like <br> about the School of Interns is that I was working in a team where everyone’s point of view used to get <br> equal consideration from our team leader who always encouraged us to go out of our comfort zone <br> which kept me in my toes to constantly keep upskilling myself to make the best use of the time, I was <br> investing for the work I was doing there. Through the internship, I gained a great amount of knowledge <br> and experience of what being a content writer looks like in the real world. I can honestly say I have <br> learned something new every day as an intern and I am happy with the direction I am headed in life.”
+             
+                       <br><br><b>Neha Kedia, Content Writer Intern</b>
+                       </p>
+                       <br><br>
+                     </div>
+                 </div>  
+
+            </div>
+        </div>
+        <div><button class="icon" onclick="scrollr()"><i class="fas fa-angle-double-right"></i></button></div>
+    </div>
+    <!--
     <div class="media-scroller" style=" inline-size: 70%;" >
         <div class="media-element">
             <div style="text-align: center;">
@@ -217,8 +271,8 @@
      
           
      </div>
-         
-
+         -->
+<!--
     
     <div style="text-align: center;">
     <img src="./assets/neha.png" alt="_blank">
@@ -242,7 +296,7 @@
     <p style="text-align: center;font-family: PT Sans;">Have doubts? Don’t worry we are here to help you.If you can't find you question here <br> just contact us.</p>
 <br>
 
-
+-->
 
 <!-- <div>
     <div class="container">
@@ -333,7 +387,7 @@
 
 <!-- 
     <table class="h-school" style="inline-size:70%; ">
-    <!--First Row
+    First Row 
 <tr class="col-12">
   <th><h1 class="h-school1"> What is school of interns ? </h1></th><th class="text-rights"><span> + </span></th>
 </tr>
@@ -428,4 +482,14 @@
     </footer>
 </div>
 </body>
+<script>
+    function scrolll(){
+        var left= document.querySelector(".scroll-image");
+        left.scrollBy(-350, 0)
+    }
+    function scrollr(){
+        var right= document.querySelector(".scroll-image");
+        right.scrollBy(350, 0)
+    }
+</script>
 </html>
